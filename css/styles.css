@@ -1,0 +1,154 @@
+.encabezado {
+  font-family: 'Patua One', cursive;
+  color: #702C35;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.encabezado__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1vh;
+  background-image: url(../assets/green-paper-texture-background-kraft-horizontal-unique-design-soft-natural-style-aesthetic-creative-199529289.jpg);
+  background-size: cover;
+}
+
+.encabezado__navstyle {
+  background-image: url(../assets/green-paper-texture-background-kraft-horizontal-unique-design-soft-natural-style-aesthetic-creative-199529289.jpg);
+  background-size: cover;
+}
+
+.encabezado__imgnav {
+  height: 7vh;
+  width: 7vh;
+}
+
+.encabezado__ulnav li a {
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+  font-size: 3vh;
+  color: #702C35 !important;
+  border-radius: 1vh;
+}
+
+.encabezado__ulnav li a:hover {
+  background-color: rgba(226, 196, 201, 0.979);
+}
+
+.encabezado__anc {
+  font-family: "Patua One", cursive;
+  font-size: 4vh;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.body__titulo {
+  font-family: "Patua One", cursive;
+  list-style-type: none;
+  color: #A13F4C;
+  font-size: 6vh;
+  letter-spacing: 5px;
+  font-style: italic;
+}
+
+.container__parraf {
+  font-family: "Patua One", cursive;
+  color: #A13F4C;
+  font-size: 3vh;
+  text-align: right;
+  margin: 2px;
+}
+
+.container__vid {
+  height: 60%;
+  width: 60%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 0px;
+  border: solid 5px #A13F4C;
+}
+
+.zocalo__img {
+  height: 7vh;
+  width: 7vh;
+}
+
+.table {
+  color: #702C35;
+  background-image: url(../assets/efd656804f8515ca3e34200bdc6e11ef.png);
+  background-size: contain;
+  border: solid 4px #702C35;
+  border-radius: 3vh;
+}
+
+.image__prod {
+  height: 72vh;
+  width: 35vh;
+  border: 3px solid #702C35;
+  border-radius: 2vh;
+}
+
+.card {
+  border: 3px #702C35 solid;
+  border-radius: 2vh;
+}
+
+.card .card-body {
+  background-image: url(../assets/efd656804f8515ca3e34200bdc6e11ef.png);
+  background-size: contain;
+}
+
+.card .card-body .card-text {
+  color: #702C35;
+  font-family: "Patua One", cursive;
+  font-size: 3vh;
+}
+
+.button {
+  color: #702C35;
+  -webkit-transition: background-color 1s ease-in;
+  transition: background-color 1s ease-in;
+}
+
+.button:hover {
+  background-color: #702C35;
+  color: white;
+}
+
+.formCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=styles.css.map */

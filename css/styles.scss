@@ -1,0 +1,132 @@
+$fontcolor:#702C35;
+$fontfamily:'Patua One', cursive; 
+
+.encabezado{
+    font-family: 'Patua One', cursive;
+   
+    color: $fontcolor;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .encabezado__flex{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vh;
+     
+    
+     background-image: url(../assets/green-paper-texture-background-kraft-horizontal-unique-design-soft-natural-style-aesthetic-creative-199529289.jpg);
+     background-size: cover;
+   
+   }
+.encabezado__navstyle{
+    background-image: url(../assets/green-paper-texture-background-kraft-horizontal-unique-design-soft-natural-style-aesthetic-creative-199529289.jpg);
+  background-size: cover;  }
+  
+  
+ .encabezado__imgnav{
+    height: 7vh;
+    width: 7vh;  
+  
+ }
+.encabezado__ulnav{
+                    li{
+                        a {
+                          transition: background-color 1s;
+                          font-size: 3vh;
+                          color: $fontcolor !important;
+                          border-radius: 1vh;                       } }
+}
+.encabezado__ulnav{
+                    li{
+                        a:hover{
+                            background-color: rgba(226, 196, 201, 0.979);
+                        }
+                    }
+}
+.encabezado__anc{
+    
+    font-family: $fontfamily;
+    font-size: 4vh;
+    
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+     
+}
+.body__titulo{
+    font-family: $fontfamily;
+    list-style-type: none;
+    color: #A13F4C;
+    font-size: 6vh;
+    letter-spacing: 5px;
+    font-style: italic;
+}
+.container__parraf{
+    font-family:$fontfamily;
+   
+    color: #A13F4C;
+    font-size: 3vh;
+  
+    text-align: right;
+    margin: 2px;
+}
+ 
+.container__vid{
+    height: 60%;
+    width: 60%;
+    align-self: center;
+    padding: 0px;
+    border: solid 5px #A13F4C;
+  }
+.zocalo__img{
+    height: 7vh;
+    width: 7vh;
+}
+.table{
+    color: $fontcolor;
+    background-image: url(../assets/efd656804f8515ca3e34200bdc6e11ef.png);
+    background-size: contain;
+    border: solid 4px $fontcolor;
+    border-radius: 3vh;
+}
+.image__prod{
+    height: 72vh;
+    width: 35vh;
+    border: 3px solid $fontcolor;
+    border-radius: 2vh;
+}
+    .card{ 
+       
+        border: 3px $fontcolor solid;
+        border-radius: 2vh;
+
+     .card-body{
+            background-image: url(../assets/efd656804f8515ca3e34200bdc6e11ef.png);
+            background-size: contain;
+            .card-text{
+                color: $fontcolor;
+                font-family: $fontfamily;
+                font-size: 3vh;
+
+            }
+            
+        }  
+    }
+    
+    
+.button{
+      color: $fontcolor;
+      transition: background-color 1s ease-in;
+
+}
+  .button:hover{
+      background-color: $fontcolor;
+      color: white;
+}
+  
