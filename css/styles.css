@@ -140,15 +140,8 @@
   color: white;
 }
 
-.formCont {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+.fab {
+  color: #702C35;
+  font-size: 8vh;
 }
 /*# sourceMappingURL=styles.css.map */
